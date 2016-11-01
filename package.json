@@ -23,13 +23,6 @@
   "engines": {
     "node": "0.10.x"
   },
-  "keywords": {
-      "hubot",
-      "bot",
-      "robot",
-      "slack",
-      "heroku"
-  }
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
