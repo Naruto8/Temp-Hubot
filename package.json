@@ -5,6 +5,7 @@
   "author": "Rohith Mukku <rohithmukku@gmail.com>",
   "description": "A bot that handles your webmail",
   "dependencies": {
+    "express": "^4.14.0",
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.6",
