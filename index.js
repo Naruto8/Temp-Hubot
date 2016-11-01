@@ -1,5 +1,11 @@
-var path = require('path');
 
-module.exports = function (robot) {
-  robot.load(path.join(__dirname, '/scripts/'));
-};
+var express = require('express');
+var app = express();
+
+app.get('/',function(req, res){
+    res.send('Hello World!')
+});
+
+app.listen(3000, function(){
+    console.log('This app listening on port 3000');
+});
